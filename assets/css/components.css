@@ -1,0 +1,75 @@
+.wrapper {
+  height: 500px;
+  border: 2px dashed #f45;
+  margin: 25px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  margin: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 60px;
+  text-transform: uppercase;
+  background-color: rgb(174, 199, 220);
+}
+
+.box-static {
+  background-color: #7272d8;
+  position: static;
+}
+
+/* .b-box {
+  position: relative;
+  z-index: 999;
+} */
+
+.box-relative {
+  background-color: #f45;
+  position: relative;
+  /* top bottom left right z-index*/
+  left: 70px;
+  top: -40px;
+  z-index: -10;
+}
+
+.wrapper-absolute {
+  position: relative;
+}
+
+.box-absolute {
+  background-color: aqua;
+  position: absolute;
+  /* left: 0px;
+  bottom: 0px; */
+  left: 30px;
+  bottom: 170px;
+  z-index: -1;
+}
+
+.box-fixed {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* header {
+  height: 100px;
+  background-color: rgb(210, 138, 43);
+  line-height: 100px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right:0;
+  left: 0;
+} */
+
+.box-sticky {
+  width: 300px;
+  position: sticky;
+  top: 200px;
+}
